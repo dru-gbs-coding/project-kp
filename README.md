@@ -122,7 +122,7 @@ APP_URL=http://localhost:8000
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=janur_tangguh_abadi
+DB_DATABASE=project-kp
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -543,7 +543,7 @@ php artisan route:list --path=admin
 Check `DB_USERNAME` and `DB_PASSWORD` in `.env`. Make sure the database exists:
 
 ```sql
-CREATE DATABASE janur_tangguh_abadi CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE project-kp CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
 ### `No application encryption key has been specified`
